@@ -1,0 +1,29 @@
+body {
+	margin: 0px;
+	background-color: #222;
+}
+
+div {
+	padding: 0px;
+	border: 0px;
+}
+
+.getborder {
+	border: 1px black solid;
+}
+
+.HeadLine.HeadLine_Div.ignoapp {
+	text-align: center;
+	height: 2%;
+	width: 100%;
+}
+
+.HeadLine.HeadLine_HL.ignoapp {
+	text-align: center;
+	height: 2%;
+	width: 100%;
+}
+
+.HeadLine.HeadLine_HL.ignoapp:hover {
+	color: #00AAFF;
+}

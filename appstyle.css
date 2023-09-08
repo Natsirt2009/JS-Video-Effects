@@ -1,0 +1,82 @@
+.dualRowConfig.app {
+	height:98%;
+	width:100%;
+}
+.row1.app {
+	left: 2%;
+}
+
+.row2.app {
+	left: 52%;
+	overflow-y: auto;
+}
+
+.app_row {
+	display: inline;
+	height: 80%;
+	position: absolute;
+	width: 46%;
+	background-color:#2F2F2F;
+	border-radius: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+img.remove.app {
+	border: 1px solid black;
+}
+
+img.remove.app:hover {
+	background-color: #000;
+}
+
+movleft {
+	float: left;
+}
+
+movright {
+	float: right;
+}
+
+movmiddle {
+	float: right;
+}
+
+videffect {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #AAA;
+  min-height: 20px;
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 4px;
+}
+
+container {
+	margin: 1%;
+	display: block;
+	width: 97%;
+	border: 2px solid #255;
+}
+
+container:hover {
+	border-color: #2AA;
+}
+
+container.effectContainer {
+	min-height: 20px;
+}
+
+button#PopupButton,button#PopupButton2,button#loadEffect {
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+button#PopupButton:hover,button#PopupButton2:hover {
+	background: linear-gradient(#DDD,#444);
+}
+
+button#loadEffect:hover {
+	background: linear-gradient(#DDD,#A44);
+}
